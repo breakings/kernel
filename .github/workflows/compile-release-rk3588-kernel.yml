@@ -62,7 +62,7 @@ on:
         options:
           - -rk3588-ophub
           - -happy-new-year
-          - -yourname
+          - -git
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
