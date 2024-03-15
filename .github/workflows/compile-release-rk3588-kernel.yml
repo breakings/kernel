@@ -60,7 +60,7 @@ on:
         default: "-rk3588"
         type: choice
         options:
-          - -rk3588-ophub
+          - -rk3588-git
           - -happy-new-year
           - -git
       kernel_config:
@@ -70,6 +70,7 @@ on:
         type: choice
         options:
           - kernel-config/release/rk3588
+          - kernel-config/release/rock5b
           - false
 
 env:
